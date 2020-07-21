@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Modestas Filipavicius"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Modestas Filipavicius"
 description              : &description "Bioinformatics student at ETHZ, focused on NLP and machine learning applications to healthcare and biomedicine"
 url                      : https://mfilipav.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/mfilipav"
+  github           : "mfilipav"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/modestas-filipavicius/"
+  linkedin         : "modestas-filipavicius"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
