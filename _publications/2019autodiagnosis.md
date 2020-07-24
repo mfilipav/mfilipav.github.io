@@ -3,10 +3,10 @@ title: "Extreme Multi-Label Classification of Disease Codes From Medical Text"
 collection: publications
 permalink: /publication/2019autodiagnosis
 excerpt: 'Automatic diagnosis code assignment from clinical notes is an important problem since performing it manually is error-prone and requires considerable time and human resources. To solve this multi-label classification problem, we use label representations obtained from the label co-occurence graph to generate embeddings, which are fed into an attentional convolutional network. Although the method does not perform well, potential reasons for sub-optimal results and possible improvements are discussed.'
-date: 2019
+date: 2019-02-01
 venue: 'ETHZ Deep Learning course reports'
 paperurl: 'http://mfilipav.github.io/files/2019autodiagnosis.pdf'
-citation: 'Filipavicius, Modestas (2019). &quot;Extreme Multi-Label Classification of Disease Codes From Medical Text.&quot; <i>arXiv</i>2005(13285)'
+citation: 'Filipavicius, Modestas (2019). &quot;Extreme Multi-Label Classification of Disease Codes From Medical Text.&quot; <i>ETHZ reports</i>2005(13285)'
 ---
 Automatic diagnosis code assignment from clinical notes is an important problem since performing it manually is error-prone and requires considerable time and human resources. To solve this multi-label classification problem, we use label representations obtained from the label co-occurence graph to generate embeddings, which are fed into an attentional convolutional network. Although the method does not perform well, potential reasons for sub-optimal results and possible improvements are discussed.
 
@@ -17,6 +17,7 @@ The purpose of this project is multi-label classification of disease diagnosis c
 
 ## Models
 ### Convolutional Attention for Multi-Label classification (CAML) model is described below:
+![alt text](http://mfilipav.github.io/files/caml.png "CAML model")
 
 
 `X` - embedding matrix, with `N` words (truncated to 2,500) and embedding dimension `de`
@@ -32,6 +33,7 @@ The purpose of this project is multi-label classification of disease diagnosis c
 
 
 ### Multi-label Classification scheme for medical discharge records is described below:
+![alt text](http://mfilipav.github.io/files/multilabel_clf.png "multilabel clf scheme")
 
 1. Learn doctors notes document embeddings with CAML procedure above 
 1. Instead of using label vectors as the target variables directly, we obtained 256-dim label graph embeddings by using AttentionWalk algorithm. For each document, corresponding label embeddings are aggregated by taking by averaging. Resulting representation of the document is used as the target vector for multi-target regression.
@@ -41,6 +43,8 @@ The purpose of this project is multi-label classification of disease diagnosis c
 
 ### Our model resulted in similar metric performance to CAML and CNN state-of-the-art models:
 
+![alt text](http://mfilipav.github.io/files/results.png "results")
 
-[See github here](https://github.com/mfilipav/auto-diagnosis)
+## Code
+[See our solution in github repo here:](https://github.com/mfilipav/auto-diagnosis)
 
