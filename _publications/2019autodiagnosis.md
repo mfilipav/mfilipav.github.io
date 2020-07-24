@@ -6,7 +6,7 @@ excerpt: 'Automatic diagnosis code assignment from clinical notes is an importan
 date: 2019-02-01
 venue: 'ETHZ Deep Learning course reports'
 paperurl: 'http://mfilipav.github.io/files/2019autodiagnosis.pdf'
-citation: 'Filipavicius, Modestas (2019). &quot;Extreme Multi-Label Classification of Disease Codes From Medical Text.&quot; <i>ETHZ reports</i>2005(13285)'
+citation: 'Filipavicius, Modestas et al., (2019). &quot;Extreme Multi-Label Classification of Disease Codes From Medical Text.&quot; <i>ETHZ reports</i>2005(13285)'
 ---
 ![alt text](http://mfilipav.github.io/files/multilabel_clf.png "multilabel clf scheme")
 
