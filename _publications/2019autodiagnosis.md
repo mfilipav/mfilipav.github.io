@@ -18,7 +18,6 @@ The purpose of this project is multi-label classification of disease diagnosis c
 ## Models
 ### Convolutional Attention for Multi-Label classification (CAML) model is described below:
 
-![alt text](http://mfilipav.github.io/files/caml.png "CAML model")
 
 `X` - embedding matrix, with `N` words (truncated to 2,500) and embedding dimension `de`
 
@@ -33,7 +32,6 @@ The purpose of this project is multi-label classification of disease diagnosis c
 
 
 ### Multi-label Classification scheme for medical discharge records is described below:
-![alt text](http://mfilipav.github.io/files/multilabel_clf.png "multilabel clf scheme")
 
 1. Learn doctors notes document embeddings with CAML procedure above 
 1. Instead of using label vectors as the target variables directly, we obtained 256-dim label graph embeddings by using AttentionWalk algorithm. For each document, corresponding label embeddings are aggregated by taking by averaging. Resulting representation of the document is used as the target vector for multi-target regression.
@@ -42,7 +40,6 @@ The purpose of this project is multi-label classification of disease diagnosis c
 
 
 ### Our model resulted in similar metric performance to CAML and CNN state-of-the-art models:
-![alt text](http://mfilipav.github.io/files/results.png "results")
 
 
 [See github here](https://github.com/mfilipav/auto-diagnosis)
