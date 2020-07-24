@@ -8,6 +8,8 @@ venue: 'ETHZ Deep Learning course reports'
 paperurl: 'http://mfilipav.github.io/files/2019autodiagnosis.pdf'
 citation: 'Filipavicius, Modestas (2019). &quot;Extreme Multi-Label Classification of Disease Codes From Medical Text.&quot; <i>ETHZ reports</i>2005(13285)'
 ---
+![alt text](http://mfilipav.github.io/files/multilabel_clf.png "multilabel clf scheme")
+
 Automatic diagnosis code assignment from clinical notes is an important problem since performing it manually is error-prone and requires considerable time and human resources. To solve this multi-label classification problem, we use label representations obtained from the label co-occurence graph to generate embeddings, which are fed into an attentional convolutional network. Although the method does not perform well, potential reasons for sub-optimal results and possible improvements are discussed.
 
 This project was developed as part of the Deep Learning (Fall 2018) course, lead by Thomas Hofmann, together with Orhun Ozbek, Akmaral Yessenalina, Brynja Sigurpalsdottir
