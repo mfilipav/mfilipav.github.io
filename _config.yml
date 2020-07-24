@@ -175,8 +175,8 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: false
+  hobbies:
+    output: true
     permalink: /:collection/:path/
   publications:
     output: true
@@ -209,10 +209,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _hobbies
   - scope:
       path: ""
-      type: teaching
+      type: hobbies
     values:
       layout: single
       author_profile: true
