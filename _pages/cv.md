@@ -95,7 +95,10 @@ Publications
 
 Service and leadership
 ======
-* CBB Student Committee at ETH Zürich. Organized career events for Bioinformatics students, attended VIS meetings, 2018-2020
+* Member at Bioinformatics Student Committee (CBB) at ETH Zürich
+  * Organized career events for Bioinformatics students, attended VIS meetings, 
+  * 2018-2020
+  
 * Kullu Volunteering Project 
   * http://volunteers.uwcrcn.no/kullu-project-northern-india-2 
   * Instructed First Aid in local schools in Himachal Pradesh
