@@ -13,7 +13,7 @@ paperurl: 'https://arxiv.org/abs/2006.33282'
 citation: 'Filipavicius, M et al., (2020). &quot;Pre-training Protein Language Models with Label-Agnostic Binding Pairs Enhances Performance in Downstream Tasks.&quot; <i>NeurIPS2020</i>2006(33282)'
 ---
 
-## A drug discovery framework for antiviral small molecules against SARS-CoV-2:
+## Pre-training Protein Language Models with Label-Agnostic Binding Pairs Enhances Performance in Downstream Tasks:
 ![alt text](http://mfilipav.github.io/files/proteinLMarch.png "Protein LM architecture")
 Proposed architecture is pre-trained by a mixture of binding and non-binding protein sequences, using only the MLM objective. Byte-pair encoding with a 10k token vocabulary enables inputting 64% longer protein sequences compared to character level embedding. `E_i` and `T_i` represent input and contextual embeddings for token `i`. `[CLS]` is a special token for classification-task output, while `[SEP]` separates two non-consecutive sequences.
 
