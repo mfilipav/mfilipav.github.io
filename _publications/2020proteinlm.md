@@ -8,9 +8,9 @@ Next, we compress protein sequences by 64\% with a Byte Pair Encoding (BPE) voca
 Finally, to expand the model input space to even larger proteins and multi-protein assemblies, we pre-train Longformer models that support 2,048 tokens.
 Our approach produces excellent fine-tuning results for protein-protein binding prediction, TCR-epitope binding prediction, cellular-localization and remote homology classification tasks. We suggest that the Transformer's attention mechanism contributes to protein binding site discovery. Further work in token-level classification for secondary structure prediction is needed. Code available at: https://github.ibm.com/PaccMann/paccmann_proteomics'
 date: 2020-10-30
-venue: 'NeurIPS, Workshop for Machine Learning for Structural Biology'
-paperurl: 'still in review'
-citation: 'Filipavicius, M et al., (2020). &quot;Pre-training Protein Language Models with Label-Agnostic Binding Pairs Enhances Performance in Downstream Tasks.&quot; <i>NeurIPS2020</i>'
+venue: 'NeurIPS'
+paperurl: 'https://arxiv.org/abs/2006.33282'
+citation: 'Filipavicius, M et al., (2020). &quot;Pre-training Protein Language Models with Label-Agnostic Binding Pairs Enhances Performance in Downstream Tasks.&quot; <i>NeurIPS2020</i>2006(33282)'
 ---
 
 ## A drug discovery framework for antiviral small molecules against SARS-CoV-2:
