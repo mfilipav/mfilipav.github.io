@@ -1,7 +1,7 @@
 ---
 title: "Extreme Multi-Label Classification of Disease Codes From Medical Text"
 collection: publications
-permalink: /publication/2019autodiagnosis
+# permalink: /publication/2019autodiagnosis
 excerpt: 'Automatic diagnosis code assignment from clinical notes is an important problem since performing it manually is error-prone and requires considerable time and human resources. To solve this multi-label classification problem, we use label representations obtained from the label co-occurence graph to generate embeddings, which are fed into an attentional convolutional network. Although the method does not perform well, potential reasons for sub-optimal results and possible improvements are discussed.'
 date: 2019-02-01
 venue: 'ETHZ Deep Learning course reports'
